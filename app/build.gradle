@@ -20,7 +20,7 @@ android {
 
     applicationVariants.all { variant ->
         variant.outputs.all { output ->
-            outputFileName = "EdXposedManager-${defaultConfig.versionName}-${defaultConfig.versionCode}-${applicationId}-${buildType.name}.apk"
+            outputFileName = "NoApp-${defaultConfig.versionName}-${defaultConfig.versionCode}-${applicationId}-${buildType.name}.apk"
         }
     }
 

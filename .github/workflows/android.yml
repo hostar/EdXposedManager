@@ -25,12 +25,11 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
 
-    - name: Printing
-      run: |
-        find
+#    - name: Printing
+#      run: find
 
     - name: Upload app APK
       uses: actions/upload-artifact@v1
       with:
-        name: app-debug
-        path: app/build/outputs/apk/debug/app-debug.apk
+        name: app-release
+        path: app/build/outputs/apk/release/NoApp*.apk
