@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager;
+package noorg.nothing.nope.no;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -31,10 +31,10 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
-import org.meowcat.edxposed.manager.receiver.PackageChangeReceiver;
-import org.meowcat.edxposed.manager.util.ModuleUtil;
-import org.meowcat.edxposed.manager.util.NotificationUtil;
-import org.meowcat.edxposed.manager.util.RepoLoader;
+import noorg.nothing.nope.no.receiver.PackageChangeReceiver;
+import noorg.nothing.nope.no.util.ModuleUtil;
+import noorg.nothing.nope.no.util.NotificationUtil;
+import noorg.nothing.nope.no.util.RepoLoader;
 
 import java.io.File;
 import java.io.IOException;
@@ -50,9 +50,9 @@ import dalvik.system.VMRuntime;
 
 import static android.os.Build.SUPPORTED_32_BIT_ABIS;
 import static android.os.Build.SUPPORTED_64_BIT_ABIS;
-import static org.meowcat.edxposed.manager.Constants.getBaseDir;
-import static org.meowcat.edxposed.manager.MeowCatApplication.TAG;
-import static org.meowcat.edxposed.manager.adapter.AppHelper.FORCE_WHITE_LIST_MODULE;
+import static noorg.nothing.nope.no.Constants.getBaseDir;
+import static noorg.nothing.nope.no.MeowCatApplication.TAG;
+import static noorg.nothing.nope.no.adapter.AppHelper.FORCE_WHITE_LIST_MODULE;
 
 @SuppressLint("Registered")
 public class XposedApp extends Application implements ActivityLifecycleCallbacks {

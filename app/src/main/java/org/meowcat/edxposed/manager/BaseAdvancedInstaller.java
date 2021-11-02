@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager;
+package noorg.nothing.nope.no;
 
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -21,14 +21,14 @@ import androidx.fragment.app.Fragment;
 
 import com.afollestad.materialdialogs.MaterialDialog;
 
-import org.meowcat.edxposed.manager.util.NavUtil;
-import org.meowcat.edxposed.manager.util.json.XposedTab;
-import org.meowcat.edxposed.manager.util.json.XposedZip;
+import noorg.nothing.nope.no.util.NavUtil;
+import noorg.nothing.nope.no.util.json.XposedTab;
+import noorg.nothing.nope.no.util.json.XposedZip;
 
 import java.util.List;
 import java.util.Objects;
 
-import static org.meowcat.edxposed.manager.XposedApp.WRITE_EXTERNAL_PERMISSION;
+import static noorg.nothing.nope.no.XposedApp.WRITE_EXTERNAL_PERMISSION;
 
 public class BaseAdvancedInstaller extends Fragment {
 

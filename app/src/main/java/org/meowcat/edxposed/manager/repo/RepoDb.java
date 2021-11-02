@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager.repo;
+package noorg.nothing.nope.no.repo;
 
 import android.annotation.SuppressLint;
 import android.content.ContentValues;
@@ -10,19 +10,19 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.text.TextUtils;
 import android.util.Pair;
 
-import org.meowcat.edxposed.manager.BuildConfig;
-import org.meowcat.edxposed.manager.XposedApp;
-import org.meowcat.edxposed.manager.repo.RepoDbDefinitions.InstalledModulesColumns;
-import org.meowcat.edxposed.manager.repo.RepoDbDefinitions.InstalledModulesUpdatesColumns;
-import org.meowcat.edxposed.manager.repo.RepoDbDefinitions.ModuleVersionsColumns;
-import org.meowcat.edxposed.manager.repo.RepoDbDefinitions.ModulesColumns;
-import org.meowcat.edxposed.manager.repo.RepoDbDefinitions.MoreInfoColumns;
-import org.meowcat.edxposed.manager.repo.RepoDbDefinitions.OverviewColumns;
-import org.meowcat.edxposed.manager.repo.RepoDbDefinitions.OverviewColumnsIndexes;
-import org.meowcat.edxposed.manager.repo.RepoDbDefinitions.RepositoriesColumns;
-import org.meowcat.edxposed.manager.util.ModuleUtil;
-import org.meowcat.edxposed.manager.util.ModuleUtil.InstalledModule;
-import org.meowcat.edxposed.manager.util.RepoLoader;
+import noorg.nothing.nope.no.BuildConfig;
+import noorg.nothing.nope.no.XposedApp;
+import noorg.nothing.nope.no.repo.RepoDbDefinitions.InstalledModulesColumns;
+import noorg.nothing.nope.no.repo.RepoDbDefinitions.InstalledModulesUpdatesColumns;
+import noorg.nothing.nope.no.repo.RepoDbDefinitions.ModuleVersionsColumns;
+import noorg.nothing.nope.no.repo.RepoDbDefinitions.ModulesColumns;
+import noorg.nothing.nope.no.repo.RepoDbDefinitions.MoreInfoColumns;
+import noorg.nothing.nope.no.repo.RepoDbDefinitions.OverviewColumns;
+import noorg.nothing.nope.no.repo.RepoDbDefinitions.OverviewColumnsIndexes;
+import noorg.nothing.nope.no.repo.RepoDbDefinitions.RepositoriesColumns;
+import noorg.nothing.nope.no.util.ModuleUtil;
+import noorg.nothing.nope.no.util.ModuleUtil.InstalledModule;
+import noorg.nothing.nope.no.util.RepoLoader;
 
 import java.io.File;
 import java.util.LinkedHashMap;

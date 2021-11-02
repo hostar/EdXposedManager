@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager.util.chrome;
+package noorg.nothing.nope.no.util.chrome;
 
 import android.app.Activity;
 import android.graphics.Rect;

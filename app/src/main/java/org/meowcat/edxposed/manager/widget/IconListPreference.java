@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager.widget;
+package noorg.nothing.nope.no.widget;
 
 /*
  * Copyright (C) 2013 The Android Open Source Project
@@ -40,7 +40,7 @@ import androidx.preference.ListPreference;
 import androidx.preference.PreferenceDialogFragmentCompat;
 import androidx.preference.PreferenceViewHolder;
 
-import org.meowcat.edxposed.manager.R;
+import noorg.nothing.nope.no.R;
 
 import java.util.ArrayList;
 import java.util.List;

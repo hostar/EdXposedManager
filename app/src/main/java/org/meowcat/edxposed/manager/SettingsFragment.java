@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager;
+package noorg.nothing.nope.no;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -20,8 +20,8 @@ import com.afollestad.materialdialogs.color.ColorChooserDialog;
 import com.afollestad.materialdialogs.folderselector.FolderChooserDialog;
 import com.topjohnwu.superuser.Shell;
 
-import org.meowcat.edxposed.manager.util.RepoLoader;
-import org.meowcat.edxposed.manager.widget.IconListPreference;
+import noorg.nothing.nope.no.util.RepoLoader;
+import noorg.nothing.nope.no.widget.IconListPreference;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -29,13 +29,13 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Objects;
 
-import static org.meowcat.edxposed.manager.Constants.getBaseDir;
-import static org.meowcat.edxposed.manager.SettingsActivity.getDarkenFactor;
-import static org.meowcat.edxposed.manager.XposedApp.WRITE_EXTERNAL_PERMISSION;
-import static org.meowcat.edxposed.manager.XposedApp.darkenColor;
-import static org.meowcat.edxposed.manager.XposedApp.getArch;
-import static org.meowcat.edxposed.manager.XposedApp.getPreferences;
-import static org.meowcat.edxposed.manager.adapter.LogsHelper.isMainUser;
+import static noorg.nothing.nope.no.Constants.getBaseDir;
+import static noorg.nothing.nope.no.SettingsActivity.getDarkenFactor;
+import static noorg.nothing.nope.no.XposedApp.WRITE_EXTERNAL_PERMISSION;
+import static noorg.nothing.nope.no.XposedApp.darkenColor;
+import static noorg.nothing.nope.no.XposedApp.getArch;
+import static noorg.nothing.nope.no.XposedApp.getPreferences;
+import static noorg.nothing.nope.no.adapter.LogsHelper.isMainUser;
 
 public class SettingsFragment extends BasePreferenceFragment implements Preference.OnPreferenceClickListener, SharedPreferences.OnSharedPreferenceChangeListener {
 

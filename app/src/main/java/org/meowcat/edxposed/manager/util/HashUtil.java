@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager.util;
+package noorg.nothing.nope.no.util;
 
 import java.io.File;
 import java.io.FileInputStream;

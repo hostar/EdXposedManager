@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager.util;
+package noorg.nothing.nope.no.util;
 
 import android.content.Context;
 import android.content.Intent;
@@ -20,12 +20,12 @@ import androidx.annotation.NonNull;
 import com.google.android.material.snackbar.Snackbar;
 
 import org.meowcat.annotation.NotProguard;
-import org.meowcat.edxposed.manager.ModulesFragment;
-import org.meowcat.edxposed.manager.R;
-import org.meowcat.edxposed.manager.StatusInstallerFragment;
-import org.meowcat.edxposed.manager.XposedApp;
-import org.meowcat.edxposed.manager.repo.ModuleVersion;
-import org.meowcat.edxposed.manager.repo.RepoDb;
+import noorg.nothing.nope.no.ModulesFragment;
+import noorg.nothing.nope.no.R;
+import noorg.nothing.nope.no.StatusInstallerFragment;
+import noorg.nothing.nope.no.XposedApp;
+import noorg.nothing.nope.no.repo.ModuleVersion;
+import noorg.nothing.nope.no.repo.RepoDb;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -37,10 +37,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-import static org.meowcat.edxposed.manager.Constants.getActiveXposedVersion;
-import static org.meowcat.edxposed.manager.Constants.getEnabledModulesListFile;
-import static org.meowcat.edxposed.manager.Constants.getModulesListFile;
-import static org.meowcat.edxposed.manager.MeowCatApplication.TAG;
+import static noorg.nothing.nope.no.Constants.getActiveXposedVersion;
+import static noorg.nothing.nope.no.Constants.getEnabledModulesListFile;
+import static noorg.nothing.nope.no.Constants.getModulesListFile;
+import static noorg.nothing.nope.no.MeowCatApplication.TAG;
 
 public final class ModuleUtil {
     // xposedminversion below this

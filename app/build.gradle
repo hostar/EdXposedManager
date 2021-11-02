@@ -10,7 +10,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "org.meowcat.edxposed.manager"
+        applicationId "noorg.nothing.nope.no"
         minSdkVersion 24
         //noinspection OldTargetApi
         targetSdkVersion 27

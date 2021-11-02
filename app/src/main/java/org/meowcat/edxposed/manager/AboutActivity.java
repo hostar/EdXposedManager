@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager;
+package noorg.nothing.nope.no;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -19,8 +19,8 @@ import androidx.fragment.app.Fragment;
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.google.android.gms.oss.licenses.OssLicensesMenuActivity;
 
-import org.meowcat.edxposed.manager.util.NavUtil;
-import org.meowcat.edxposed.manager.util.ThemeUtil;
+import noorg.nothing.nope.no.util.NavUtil;
+import noorg.nothing.nope.no.util.ThemeUtil;
 
 import static android.content.Intent.ACTION_SEND;
 import static android.content.Intent.EXTRA_TEXT;

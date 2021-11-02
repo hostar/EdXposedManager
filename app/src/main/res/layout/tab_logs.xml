@@ -35,7 +35,7 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="16dp"
         android:orientation="vertical"
-        app:layout_behavior="org.meowcat.edxposed.manager.widget.MoveUpwardBehavior"
+        app:layout_behavior="noorg.nothing.nope.no.widget.MoveUpwardBehavior"
         tools:layout_marginBottom="64dp">
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton

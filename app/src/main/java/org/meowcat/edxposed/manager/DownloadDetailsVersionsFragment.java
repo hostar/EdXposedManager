@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager;
+package noorg.nothing.nope.no;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -18,25 +18,25 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.ListFragment;
 
-import org.meowcat.edxposed.manager.repo.Module;
-import org.meowcat.edxposed.manager.repo.ModuleVersion;
-import org.meowcat.edxposed.manager.repo.ReleaseType;
-import org.meowcat.edxposed.manager.repo.RepoParser;
-import org.meowcat.edxposed.manager.util.DownloadsUtil;
-import org.meowcat.edxposed.manager.util.HashUtil;
-import org.meowcat.edxposed.manager.util.InstallApkUtil;
-import org.meowcat.edxposed.manager.util.ModuleUtil.InstalledModule;
-import org.meowcat.edxposed.manager.util.RepoLoader;
-import org.meowcat.edxposed.manager.util.ThemeUtil;
-import org.meowcat.edxposed.manager.util.chrome.LinkTransformationMethod;
-import org.meowcat.edxposed.manager.widget.DownloadView;
+import noorg.nothing.nope.no.repo.Module;
+import noorg.nothing.nope.no.repo.ModuleVersion;
+import noorg.nothing.nope.no.repo.ReleaseType;
+import noorg.nothing.nope.no.repo.RepoParser;
+import noorg.nothing.nope.no.util.DownloadsUtil;
+import noorg.nothing.nope.no.util.HashUtil;
+import noorg.nothing.nope.no.util.InstallApkUtil;
+import noorg.nothing.nope.no.util.ModuleUtil.InstalledModule;
+import noorg.nothing.nope.no.util.RepoLoader;
+import noorg.nothing.nope.no.util.ThemeUtil;
+import noorg.nothing.nope.no.util.chrome.LinkTransformationMethod;
+import noorg.nothing.nope.no.widget.DownloadView;
 
 import java.io.File;
 import java.text.DateFormat;
 import java.util.Date;
 import java.util.Objects;
 
-import static org.meowcat.edxposed.manager.XposedApp.WRITE_EXTERNAL_PERMISSION;
+import static noorg.nothing.nope.no.XposedApp.WRITE_EXTERNAL_PERMISSION;
 
 public class DownloadDetailsVersionsFragment extends ListFragment {
     private DownloadDetailsActivity mActivity;

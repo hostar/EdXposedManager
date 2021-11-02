@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager.widget;
+package noorg.nothing.nope.no.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;

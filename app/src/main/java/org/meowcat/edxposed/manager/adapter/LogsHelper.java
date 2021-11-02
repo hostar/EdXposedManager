@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager.adapter;
+package noorg.nothing.nope.no.adapter;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -7,9 +7,9 @@ import android.os.UserHandle;
 
 import com.afollestad.materialdialogs.MaterialDialog;
 
-import org.meowcat.edxposed.manager.LogsFragment;
-import org.meowcat.edxposed.manager.R;
-import org.meowcat.edxposed.manager.XposedApp;
+import noorg.nothing.nope.no.LogsFragment;
+import noorg.nothing.nope.no.R;
+import noorg.nothing.nope.no.XposedApp;
 
 import java.io.File;
 import java.io.IOException;

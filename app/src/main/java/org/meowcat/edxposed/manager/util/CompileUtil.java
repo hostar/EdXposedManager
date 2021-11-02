@@ -1,12 +1,12 @@
-package org.meowcat.edxposed.manager.util;
+package noorg.nothing.nope.no.util;
 
 import android.content.Context;
 import android.content.pm.ApplicationInfo;
 
 import androidx.fragment.app.FragmentManager;
 
-import org.meowcat.edxposed.manager.CompileDialogFragment;
-import org.meowcat.edxposed.manager.R;
+import noorg.nothing.nope.no.CompileDialogFragment;
+import noorg.nothing.nope.no.R;
 
 public class CompileUtil {
 

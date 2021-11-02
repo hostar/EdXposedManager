@@ -5,7 +5,7 @@
         android:key="group_app"
         android:title="@string/settings_group_app">
 
-        <org.meowcat.edxposed.manager.widget.IconListPreference
+        <noorg.nothing.nope.no.widget.IconListPreference
             android:defaultValue="0"
             android:entries="@array/icons"
             android:entryValues="@array/iconsValues"
@@ -38,7 +38,7 @@
             android:key="dark_status_bar"
             android:title="@string/settings_title_dark_status_bar" />
 
-        <org.meowcat.edxposed.manager.widget.IntegerListPreference
+        <noorg.nothing.nope.no.widget.IntegerListPreference
             android:defaultValue="0"
             android:entries="@array/theme_texts"
             android:entryValues="@array/theme_values"
@@ -53,7 +53,7 @@
             android:summary="@string/settings_summary_pure_black"
             android:title="@string/settings_title_pure_black" />
 
-        <org.meowcat.edxposed.manager.widget.IntegerListPreference
+        <noorg.nothing.nope.no.widget.IntegerListPreference
             android:defaultValue="0"
             android:entries="@array/default_view_texts"
             android:entryValues="@array/default_view_values"
@@ -105,7 +105,7 @@
             android:summary="@string/install_with_su_summ"
             android:title="@string/install_with_su" />
 
-        <org.meowcat.edxposed.manager.widget.ListPreferenceSummaryFix
+        <noorg.nothing.nope.no.widget.ListPreferenceSummaryFix
             android:defaultValue="stable"
             android:entries="@array/release_type_texts"
             android:entryValues="@array/release_type_values"

@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager;
+package noorg.nothing.nope.no;
 
 import android.Manifest;
 import android.content.Context;
@@ -31,19 +31,19 @@ import androidx.fragment.app.Fragment;
 
 import com.google.android.material.snackbar.Snackbar;
 
-import org.meowcat.edxposed.manager.repo.Module;
-import org.meowcat.edxposed.manager.repo.ModuleVersion;
-import org.meowcat.edxposed.manager.util.DownloadsUtil;
-import org.meowcat.edxposed.manager.util.InstallApkUtil;
-import org.meowcat.edxposed.manager.util.RepoLoader;
-import org.meowcat.edxposed.manager.util.ThemeUtil;
+import noorg.nothing.nope.no.repo.Module;
+import noorg.nothing.nope.no.repo.ModuleVersion;
+import noorg.nothing.nope.no.util.DownloadsUtil;
+import noorg.nothing.nope.no.util.InstallApkUtil;
+import noorg.nothing.nope.no.util.RepoLoader;
+import noorg.nothing.nope.no.util.ThemeUtil;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 
-import static org.meowcat.edxposed.manager.XposedApp.WRITE_EXTERNAL_PERMISSION;
+import static noorg.nothing.nope.no.XposedApp.WRITE_EXTERNAL_PERMISSION;
 
 public class ModulesBookmark extends BaseActivity {
 

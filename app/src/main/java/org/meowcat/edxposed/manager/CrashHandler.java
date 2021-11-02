@@ -2,7 +2,7 @@
  * Copyright (c) 2013-2020 MeowCat Studio Powered by MlgmXyysd All Rights Reserved.
  */
 
-package org.meowcat.edxposed.manager;
+package noorg.nothing.nope.no;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -27,7 +27,7 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Objects;
 
-import static org.meowcat.edxposed.manager.MeowCatApplication.TAG;
+import static noorg.nothing.nope.no.MeowCatApplication.TAG;
 
 public class CrashHandler implements UncaughtExceptionHandler {
     @SuppressLint("StaticFieldLeak")

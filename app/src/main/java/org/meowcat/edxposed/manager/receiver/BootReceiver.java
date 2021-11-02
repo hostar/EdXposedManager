@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager.receiver;
+package noorg.nothing.nope.no.receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -9,9 +9,9 @@ import android.os.AsyncTask;
 import android.util.Log;
 
 import org.json.JSONObject;
-import org.meowcat.edxposed.manager.BuildConfig;
-import org.meowcat.edxposed.manager.util.NotificationUtil;
-import org.meowcat.edxposed.manager.util.json.JSONUtils;
+import noorg.nothing.nope.no.BuildConfig;
+import noorg.nothing.nope.no.util.NotificationUtil;
+import noorg.nothing.nope.no.util.json.JSONUtils;
 
 import static androidx.constraintlayout.widget.Constraints.TAG;
 

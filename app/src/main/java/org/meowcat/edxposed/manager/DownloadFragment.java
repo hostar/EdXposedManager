@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager;
+package noorg.nothing.nope.no;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -32,14 +32,14 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import com.afollestad.materialdialogs.MaterialDialog;
 
-import org.meowcat.edxposed.manager.repo.RepoDb;
-import org.meowcat.edxposed.manager.repo.RepoDbDefinitions.OverviewColumnsIndexes;
-import org.meowcat.edxposed.manager.util.ModuleUtil;
-import org.meowcat.edxposed.manager.util.ModuleUtil.InstalledModule;
-import org.meowcat.edxposed.manager.util.ModuleUtil.ModuleListener;
-import org.meowcat.edxposed.manager.util.RepoLoader;
-import org.meowcat.edxposed.manager.util.RepoLoader.RepoListener;
-import org.meowcat.edxposed.manager.util.ThemeUtil;
+import noorg.nothing.nope.no.repo.RepoDb;
+import noorg.nothing.nope.no.repo.RepoDbDefinitions.OverviewColumnsIndexes;
+import noorg.nothing.nope.no.util.ModuleUtil;
+import noorg.nothing.nope.no.util.ModuleUtil.InstalledModule;
+import noorg.nothing.nope.no.util.ModuleUtil.ModuleListener;
+import noorg.nothing.nope.no.util.RepoLoader;
+import noorg.nothing.nope.no.util.RepoLoader.RepoListener;
+import noorg.nothing.nope.no.util.ThemeUtil;
 
 import java.text.DateFormat;
 import java.util.Date;

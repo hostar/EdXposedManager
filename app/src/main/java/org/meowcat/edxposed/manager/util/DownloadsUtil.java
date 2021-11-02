@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager.util;
+package noorg.nothing.nope.no.util;
 
 import android.annotation.SuppressLint;
 import android.app.DownloadManager;
@@ -21,11 +21,11 @@ import androidx.core.os.EnvironmentCompat;
 
 import com.afollestad.materialdialogs.MaterialDialog;
 
-import org.meowcat.edxposed.manager.R;
-import org.meowcat.edxposed.manager.XposedApp;
-import org.meowcat.edxposed.manager.repo.Module;
-import org.meowcat.edxposed.manager.repo.ModuleVersion;
-import org.meowcat.edxposed.manager.repo.ReleaseType;
+import noorg.nothing.nope.no.R;
+import noorg.nothing.nope.no.XposedApp;
+import noorg.nothing.nope.no.repo.Module;
+import noorg.nothing.nope.no.repo.ModuleVersion;
+import noorg.nothing.nope.no.repo.ReleaseType;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -41,7 +41,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 
-import static org.meowcat.edxposed.manager.MeowCatApplication.TAG;
+import static noorg.nothing.nope.no.MeowCatApplication.TAG;
 
 public class DownloadsUtil {
     static final String MIME_TYPE_APK = "application/vnd.android.package-archive";

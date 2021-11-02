@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager.repo;
+package noorg.nothing.nope.no.repo;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -18,7 +18,7 @@ import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
 
-import org.meowcat.edxposed.manager.R;
+import noorg.nothing.nope.no.R;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 import org.xmlpull.v1.XmlPullParserFactory;
@@ -26,7 +26,7 @@ import org.xmlpull.v1.XmlPullParserFactory;
 import java.io.IOException;
 import java.io.InputStream;
 
-import static org.meowcat.edxposed.manager.MeowCatApplication.TAG;
+import static noorg.nothing.nope.no.MeowCatApplication.TAG;
 
 public class RepoParser {
     private final static String NS = null;

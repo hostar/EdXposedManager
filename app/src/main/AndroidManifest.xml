@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="org.meowcat.edxposed.manager"
+    package="noorg.nothing.nope.no"
     android:installLocation="internalOnly">
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
@@ -164,7 +164,7 @@
             android:theme="@style/Theme.XposedInstaller.Transparent">
             <intent-filter>
                 <action android:name="de.robv.android.xposed.installer.DOWNLOAD_DETAILS" />
-                <action android:name="org.meowcat.edxposed.manager.DOWNLOAD_DETAILS" />
+                <action android:name="noorg.nothing.nope.no.DOWNLOAD_DETAILS" />
 
                 <data android:scheme="package" />
 
@@ -259,7 +259,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="org.meowcat.edxposed.manager.fileprovider"
+            android:authorities="noorg.nothing.nope.no.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

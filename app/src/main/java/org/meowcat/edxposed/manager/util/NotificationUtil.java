@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager.util;
+package noorg.nothing.nope.no.util;
 
 import android.annotation.SuppressLint;
 import android.app.NotificationChannel;
@@ -17,10 +17,10 @@ import androidx.core.app.NotificationCompat;
 
 import com.topjohnwu.superuser.Shell;
 
-import org.meowcat.edxposed.manager.MeowCatApplication;
-import org.meowcat.edxposed.manager.R;
-import org.meowcat.edxposed.manager.WelcomeActivity;
-import org.meowcat.edxposed.manager.XposedApp;
+import noorg.nothing.nope.no.MeowCatApplication;
+import noorg.nothing.nope.no.R;
+import noorg.nothing.nope.no.WelcomeActivity;
+import noorg.nothing.nope.no.XposedApp;
 
 import static androidx.constraintlayout.widget.Constraints.TAG;
 

@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager;
+package noorg.nothing.nope.no;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -42,19 +42,19 @@ import androidx.core.app.ActivityCompat;
 
 import com.google.android.material.snackbar.Snackbar;
 
-import org.meowcat.edxposed.manager.repo.Module;
-import org.meowcat.edxposed.manager.repo.ModuleVersion;
-import org.meowcat.edxposed.manager.repo.ReleaseType;
-import org.meowcat.edxposed.manager.repo.RepoDb;
-import org.meowcat.edxposed.manager.repo.RepoDb.RowNotFoundException;
-import org.meowcat.edxposed.manager.util.DownloadsUtil;
-import org.meowcat.edxposed.manager.util.InstallApkUtil;
-import org.meowcat.edxposed.manager.util.ModuleUtil;
-import org.meowcat.edxposed.manager.util.ModuleUtil.InstalledModule;
-import org.meowcat.edxposed.manager.util.ModuleUtil.ModuleListener;
-import org.meowcat.edxposed.manager.util.NavUtil;
-import org.meowcat.edxposed.manager.util.RepoLoader;
-import org.meowcat.edxposed.manager.util.ThemeUtil;
+import noorg.nothing.nope.no.repo.Module;
+import noorg.nothing.nope.no.repo.ModuleVersion;
+import noorg.nothing.nope.no.repo.ReleaseType;
+import noorg.nothing.nope.no.repo.RepoDb;
+import noorg.nothing.nope.no.repo.RepoDb.RowNotFoundException;
+import noorg.nothing.nope.no.util.DownloadsUtil;
+import noorg.nothing.nope.no.util.InstallApkUtil;
+import noorg.nothing.nope.no.util.ModuleUtil;
+import noorg.nothing.nope.no.util.ModuleUtil.InstalledModule;
+import noorg.nothing.nope.no.util.ModuleUtil.ModuleListener;
+import noorg.nothing.nope.no.util.NavUtil;
+import noorg.nothing.nope.no.util.RepoLoader;
+import noorg.nothing.nope.no.util.ThemeUtil;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -82,10 +82,10 @@ import java.util.Set;
 
 import static android.provider.Settings.ACTION_APPLICATION_DETAILS_SETTINGS;
 import static androidx.constraintlayout.widget.Constraints.TAG;
-import static org.meowcat.edxposed.manager.Constants.getActiveXposedVersion;
-import static org.meowcat.edxposed.manager.Constants.getEnabledModulesListFile;
-import static org.meowcat.edxposed.manager.XposedApp.WRITE_EXTERNAL_PERMISSION;
-import static org.meowcat.edxposed.manager.XposedApp.createFolder;
+import static noorg.nothing.nope.no.Constants.getActiveXposedVersion;
+import static noorg.nothing.nope.no.Constants.getEnabledModulesListFile;
+import static noorg.nothing.nope.no.XposedApp.WRITE_EXTERNAL_PERMISSION;
+import static noorg.nothing.nope.no.XposedApp.createFolder;
 
 public class ModulesFragment extends BaseFragment implements ModuleListener, AdapterView.OnItemClickListener {
     public static final String SETTINGS_CATEGORY = "de.robv.android.xposed.category.MODULE_SETTINGS";

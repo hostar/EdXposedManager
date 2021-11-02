@@ -1,11 +1,11 @@
-package org.meowcat.edxposed.manager.receiver;
+package noorg.nothing.nope.no.receiver;
 
 import android.app.DownloadManager;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import org.meowcat.edxposed.manager.util.DownloadsUtil;
+import noorg.nothing.nope.no.util.DownloadsUtil;
 
 public class DownloadReceiver extends BroadcastReceiver {
     @Override

@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager.util.json;
+package noorg.nothing.nope.no.util.json;
 
 
 import android.os.Parcel;

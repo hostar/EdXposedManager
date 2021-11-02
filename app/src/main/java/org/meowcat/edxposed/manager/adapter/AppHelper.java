@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager.adapter;
+package noorg.nothing.nope.no.adapter;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -15,11 +15,11 @@ import androidx.fragment.app.FragmentManager;
 
 import com.google.android.material.snackbar.Snackbar;
 
-import org.meowcat.edxposed.manager.BuildConfig;
-import org.meowcat.edxposed.manager.R;
-import org.meowcat.edxposed.manager.StatusInstallerFragment;
-import org.meowcat.edxposed.manager.XposedApp;
-import org.meowcat.edxposed.manager.util.CompileUtil;
+import noorg.nothing.nope.no.BuildConfig;
+import noorg.nothing.nope.no.R;
+import noorg.nothing.nope.no.StatusInstallerFragment;
+import noorg.nothing.nope.no.XposedApp;
+import noorg.nothing.nope.no.util.CompileUtil;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -31,7 +31,7 @@ import java.util.Collections;
 import java.util.List;
 
 import static android.provider.Settings.ACTION_APPLICATION_DETAILS_SETTINGS;
-import static org.meowcat.edxposed.manager.Constants.getBaseDir;
+import static noorg.nothing.nope.no.Constants.getBaseDir;
 
 public class AppHelper {
 

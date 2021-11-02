@@ -31,7 +31,7 @@
 
         </com.google.android.material.appbar.AppBarLayout>
 
-        <org.meowcat.edxposed.manager.widget.MasterSwitch
+        <noorg.nothing.nope.no.widget.MasterSwitch
             android:id="@+id/master_switch"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

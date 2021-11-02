@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager.xposed;
+package noorg.nothing.nope.no.xposed;
 
 import android.app.Application;
 import android.content.Context;
@@ -18,8 +18,8 @@ import androidx.annotation.Nullable;
 
 import org.json.JSONObject;
 import org.meowcat.annotation.NotProguard;
-import org.meowcat.edxposed.manager.MeowCatApplication;
-import org.meowcat.edxposed.manager.StatusInstallerFragment;
+import noorg.nothing.nope.no.MeowCatApplication;
+import noorg.nothing.nope.no.StatusInstallerFragment;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -41,7 +41,7 @@ import de.robv.android.xposed.callbacks.XC_LoadPackage;
 import static de.robv.android.xposed.XposedHelpers.callMethod;
 import static de.robv.android.xposed.XposedHelpers.callStaticMethod;
 import static de.robv.android.xposed.XposedHelpers.findAndHookMethod;
-import static org.meowcat.edxposed.manager.BuildConfig.APPLICATION_ID;
+import static noorg.nothing.nope.no.BuildConfig.APPLICATION_ID;
 
 @Keep
 @NotProguard

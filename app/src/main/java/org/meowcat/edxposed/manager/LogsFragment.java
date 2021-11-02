@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager;
+package noorg.nothing.nope.no;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -24,8 +24,8 @@ import com.afollestad.materialdialogs.MaterialDialog;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.tabs.TabLayout;
 
-import org.meowcat.edxposed.manager.adapter.LogsAdapter;
-import org.meowcat.edxposed.manager.adapter.LogsHelper;
+import noorg.nothing.nope.no.adapter.LogsAdapter;
+import noorg.nothing.nope.no.adapter.LogsHelper;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -37,9 +37,9 @@ import java.util.HashMap;
 import java.util.Objects;
 
 import static android.app.Activity.RESULT_OK;
-import static org.meowcat.edxposed.manager.Constants.getBaseDir;
-import static org.meowcat.edxposed.manager.MeowCatApplication.TAG;
-import static org.meowcat.edxposed.manager.adapter.LogsHelper.isMainUser;
+import static noorg.nothing.nope.no.Constants.getBaseDir;
+import static noorg.nothing.nope.no.MeowCatApplication.TAG;
+import static noorg.nothing.nope.no.adapter.LogsHelper.isMainUser;
 
 public class LogsFragment extends Fragment {
 

@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager;
+package noorg.nothing.nope.no;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -17,7 +17,7 @@ import androidx.appcompat.app.AppCompatDialogFragment;
 
 import com.topjohnwu.superuser.Shell;
 
-import org.meowcat.edxposed.manager.util.ToastUtil;
+import noorg.nothing.nope.no.util.ToastUtil;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;

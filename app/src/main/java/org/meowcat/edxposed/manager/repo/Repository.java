@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager.repo;
+package noorg.nothing.nope.no.repo;
 
 public class Repository {
     public String name;

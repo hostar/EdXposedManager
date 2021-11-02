@@ -1,10 +1,10 @@
-package org.meowcat.edxposed.manager.util.chrome;
+package noorg.nothing.nope.no.util.chrome;
 
 import android.app.Activity;
 import android.text.style.URLSpan;
 import android.view.View;
 
-import org.meowcat.edxposed.manager.util.NavUtil;
+import noorg.nothing.nope.no.util.NavUtil;
 
 /**
  * Created by Nikola D. on 12/23/2015.

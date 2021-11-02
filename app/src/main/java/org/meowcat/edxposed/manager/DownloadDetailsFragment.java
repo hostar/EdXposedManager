@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager;
+package noorg.nothing.nope.no;
 
 import android.content.Context;
 import android.net.Uri;
@@ -13,10 +13,10 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
-import org.meowcat.edxposed.manager.repo.Module;
-import org.meowcat.edxposed.manager.repo.RepoParser;
-import org.meowcat.edxposed.manager.util.NavUtil;
-import org.meowcat.edxposed.manager.util.chrome.LinkTransformationMethod;
+import noorg.nothing.nope.no.repo.Module;
+import noorg.nothing.nope.no.repo.RepoParser;
+import noorg.nothing.nope.no.util.NavUtil;
+import noorg.nothing.nope.no.util.chrome.LinkTransformationMethod;
 
 public class DownloadDetailsFragment extends Fragment {
     private DownloadDetailsActivity mActivity;

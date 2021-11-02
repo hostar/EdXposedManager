@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager.adapter;
+package noorg.nothing.nope.no.adapter;
 
 
 import android.content.Context;
@@ -10,7 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.meowcat.edxposed.manager.R;
+import noorg.nothing.nope.no.R;
 
 import java.util.ArrayList;
 

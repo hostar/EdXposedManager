@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager;
+package noorg.nothing.nope.no;
 
 import android.content.Context;
 import android.content.Intent;
@@ -25,19 +25,19 @@ import androidx.viewpager.widget.ViewPager;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.tabs.TabLayout;
 
-import org.meowcat.edxposed.manager.repo.Module;
-import org.meowcat.edxposed.manager.util.ModuleUtil;
-import org.meowcat.edxposed.manager.util.ModuleUtil.InstalledModule;
-import org.meowcat.edxposed.manager.util.ModuleUtil.ModuleListener;
-import org.meowcat.edxposed.manager.util.RepoLoader;
-import org.meowcat.edxposed.manager.util.RepoLoader.RepoListener;
-import org.meowcat.edxposed.manager.util.ThemeUtil;
+import noorg.nothing.nope.no.repo.Module;
+import noorg.nothing.nope.no.util.ModuleUtil;
+import noorg.nothing.nope.no.util.ModuleUtil.InstalledModule;
+import noorg.nothing.nope.no.util.ModuleUtil.ModuleListener;
+import noorg.nothing.nope.no.util.RepoLoader;
+import noorg.nothing.nope.no.util.RepoLoader.RepoListener;
+import noorg.nothing.nope.no.util.ThemeUtil;
 
 import java.util.List;
 import java.util.Objects;
 
 import static androidx.fragment.app.FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT;
-import static org.meowcat.edxposed.manager.MeowCatApplication.TAG;
+import static noorg.nothing.nope.no.MeowCatApplication.TAG;
 
 public class DownloadDetailsActivity extends BaseActivity implements RepoListener, ModuleListener {
 

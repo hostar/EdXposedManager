@@ -75,7 +75,7 @@
             </LinearLayout>
         </LinearLayout>
 
-        <org.meowcat.edxposed.manager.widget.DownloadView
+        <noorg.nothing.nope.no.widget.DownloadView
             android:id="@+id/downloadView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />

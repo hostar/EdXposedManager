@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager.widget;
+package noorg.nothing.nope.no.widget;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -17,14 +17,14 @@ import android.widget.Toast;
 import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.Fragment;
 
-import org.meowcat.edxposed.manager.R;
-import org.meowcat.edxposed.manager.util.DownloadsUtil;
-import org.meowcat.edxposed.manager.util.DownloadsUtil.DownloadFinishedCallback;
-import org.meowcat.edxposed.manager.util.DownloadsUtil.DownloadInfo;
+import noorg.nothing.nope.no.R;
+import noorg.nothing.nope.no.util.DownloadsUtil;
+import noorg.nothing.nope.no.util.DownloadsUtil.DownloadFinishedCallback;
+import noorg.nothing.nope.no.util.DownloadsUtil.DownloadInfo;
 
 import java.util.Objects;
 
-import static org.meowcat.edxposed.manager.XposedApp.WRITE_EXTERNAL_PERMISSION;
+import static noorg.nothing.nope.no.XposedApp.WRITE_EXTERNAL_PERMISSION;
 
 public class DownloadView extends LinearLayout {
     @SuppressLint("StaticFieldLeak")

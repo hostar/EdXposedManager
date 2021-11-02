@@ -1,6 +1,6 @@
-package org.meowcat.edxposed.manager.repo;
+package noorg.nothing.nope.no.repo;
 
-import org.meowcat.edxposed.manager.R;
+import noorg.nothing.nope.no.R;
 
 public enum ReleaseType {
     STABLE(R.string.reltype_stable), BETA(R.string.reltype_beta), EXPERIMENTAL(R.string.reltype_experimental);

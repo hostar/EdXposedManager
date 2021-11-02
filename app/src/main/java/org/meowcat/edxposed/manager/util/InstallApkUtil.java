@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager.util;
+package noorg.nothing.nope.no.util;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -15,8 +15,8 @@ import androidx.core.content.FileProvider;
 
 import com.topjohnwu.superuser.Shell;
 
-import org.meowcat.edxposed.manager.R;
-import org.meowcat.edxposed.manager.XposedApp;
+import noorg.nothing.nope.no.R;
+import noorg.nothing.nope.no.XposedApp;
 
 import java.io.File;
 import java.util.LinkedList;
@@ -56,7 +56,7 @@ public class InstallApkUtil extends AsyncTask<Void, Void, Integer> {
         Intent installIntent = new Intent(Intent.ACTION_INSTALL_PACKAGE);
         installIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         Uri uri;
-        uri = FileProvider.getUriForFile(context, "org.meowcat.edxposed.manager.fileprovider", new File(localFilename));
+        uri = FileProvider.getUriForFile(context, "noorg.nothing.nope.no.fileprovider", new File(localFilename));
         installIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
         installIntent.setDataAndType(uri, DownloadsUtil.MIME_TYPE_APK);
         installIntent.putExtra(Intent.EXTRA_INSTALLER_PACKAGE_NAME, context.getApplicationInfo().packageName);

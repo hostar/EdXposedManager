@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager.adapter;
+package noorg.nothing.nope.no.adapter;
 
 import android.content.Context;
 import android.content.pm.ApplicationInfo;
@@ -7,8 +7,8 @@ import android.widget.CompoundButton;
 
 import com.google.android.material.snackbar.Snackbar;
 
-import org.meowcat.edxposed.manager.MeowCatApplication;
-import org.meowcat.edxposed.manager.R;
+import noorg.nothing.nope.no.MeowCatApplication;
+import noorg.nothing.nope.no.R;
 
 import java.util.List;
 

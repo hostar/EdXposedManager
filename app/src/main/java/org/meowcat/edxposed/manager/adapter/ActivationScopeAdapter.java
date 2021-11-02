@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager.adapter;
+package noorg.nothing.nope.no.adapter;
 
 import android.app.Activity;
 import android.content.Context;
@@ -8,10 +8,10 @@ import android.widget.CompoundButton;
 
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
-import org.meowcat.edxposed.manager.R;
-import org.meowcat.edxposed.manager.util.ModuleUtil;
-import org.meowcat.edxposed.manager.util.ToastUtil;
-import org.meowcat.edxposed.manager.widget.MasterSwitch;
+import noorg.nothing.nope.no.R;
+import noorg.nothing.nope.no.util.ModuleUtil;
+import noorg.nothing.nope.no.util.ToastUtil;
+import noorg.nothing.nope.no.widget.MasterSwitch;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -23,7 +23,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import static org.meowcat.edxposed.manager.adapter.AppHelper.BASE_PATH;
+import static noorg.nothing.nope.no.adapter.AppHelper.BASE_PATH;
 
 public class ActivationScopeAdapter extends AppAdapter {
 

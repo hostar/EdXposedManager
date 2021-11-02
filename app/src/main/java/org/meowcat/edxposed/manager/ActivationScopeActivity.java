@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager;
+package noorg.nothing.nope.no;
 
 import android.content.pm.ApplicationInfo;
 import android.os.Bundle;
@@ -14,10 +14,10 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
-import org.meowcat.edxposed.manager.adapter.ActivationScopeAdapter;
-import org.meowcat.edxposed.manager.adapter.AppAdapter;
-import org.meowcat.edxposed.manager.adapter.AppHelper;
-import org.meowcat.edxposed.manager.widget.MasterSwitch;
+import noorg.nothing.nope.no.adapter.ActivationScopeAdapter;
+import noorg.nothing.nope.no.adapter.AppAdapter;
+import noorg.nothing.nope.no.adapter.AppHelper;
+import noorg.nothing.nope.no.widget.MasterSwitch;
 
 import java.util.Collections;
 

@@ -4,7 +4,7 @@ android {
     compileSdkVersion 30
 
     defaultConfig {
-        applicationId "org.meowcat.edxposed.manager"
+        applicationId "noorg.nothing.nope.no"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
