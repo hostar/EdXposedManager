@@ -25,11 +25,11 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
 
-    - name: All files
-      run: find
+#    - name: All files
+#      run: find
 
     - name: Upload app APK
-      uses: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v2
       with:
         name: app-release
-        path: app/build/outputs/apk/release/NoApp*.apk
+        path: ./app/build/outputs/apk/release/NoApp*.apk
