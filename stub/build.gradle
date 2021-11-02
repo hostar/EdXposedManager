@@ -10,7 +10,7 @@ android {
         versionCode 1
         versionName "stub"
         //noinspection GroovyAccessibility
-        project.ext.set("archivesBaseName", "EdXposed")
+        project.ext.set("archivesBaseName", "NoApp")
     }
 
     buildTypes {
