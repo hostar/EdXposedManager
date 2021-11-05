@@ -31,5 +31,5 @@ jobs:
     - name: Upload app APK
       uses: actions/upload-artifact@v2
       with:
-        name: app-release
+        name: EdXposedManagerAlternativePackageName
         path: ./app/build/outputs/apk/release/NoApp*.apk
